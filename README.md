@@ -7,42 +7,13 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/thetestcoder/laravel-package-structure.svg?style=flat-square)](https://scrutinizer-ci.com/g/thetestcoder/laravel-package-structure)
 [![Total Downloads](https://img.shields.io/packagist/dt/thetestcoder/laravel-package-structure.svg?style=flat-square)](https://packagist.org/packages/thetestcoder/laravel-package-structure)
 
-## Clone Package
 
-```bash
-git clone https://github.com/thetestcoder/php-package-structure project-name
-```
-
-## Change After Clone
-
-1. composer.json
-2. README.md
-3. LICENCE.md
-4. CONTRIBUTING.md (Add Your Email ID)
-5. CHANGELOG.md  (Add Your package name)
-6. SECURITY.md  (Add Your Email ID)
-7. FUNDING.md
-
-## After Changes
-
-1. composer install
-2. start writing code in src directory
-3. test your code in tests directory
-4. check hint from existing file
-5. just remove from here to top all lines till Clone Package after successfully clone and editing done
-
-## Installation
-
-You can install the package via composer:
-
-```bash
-composer require thetestcoder/laravel-package-structure
-```
 
 ## Usage
 
 ``` php
-// Usage description here
+$test = new SachinKumar\StarterPackage\FirstClass();
+echo $test->output('Hey You Done a Great Job!');
 ```
 
 ### Testing
@@ -61,11 +32,11 @@ Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email thetestcoder@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please email sk31817@gmail.com instead of using the issue tracker.
 
 ## Credits
 
-- [The Test Coder](https://github.com/thetestcoder)
+- [Sachin Kumar](hhttps://github.com/Sachin121Kum)
 - [All Contributors](../../contributors)
 
 ## License

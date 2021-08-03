@@ -1,5 +1,5 @@
 {
-    "name": "thetestcoder/laravel-package-structure",
+    "name": "sachinkumar/starter=package",
     "description": "This is simple laravel package structure",
     "keywords": [
         "thetestcoder",
@@ -10,13 +10,13 @@
     "type": "library",
     "authors": [
         {
-            "name": "The Test Coder",
-            "email": "thetestcoder@gmail.com",
+            "name": "Sachin Kumar",
+            "email": "Sk31817@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
+        "php": "^7.1|^8.0",
         "illuminate/contracts": "^8.0"
     },
     "require-dev": {
@@ -26,13 +26,13 @@
     },
     "autoload": {
         "psr-4": {
-            "TheTestCoder\\LaravelPackageStructure\\": "src/",
-            "TheTestCoder\\LaravelPackageStructure\\Database\\Factories\\": "database/factories/"
+            "Sachinkumar\\LaravelPackageStructure\\": "src/",
+            "Sachinkumar\\LaravelPackageStructure\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TheTestCoder\\LaravelPackageStructure\\Tests\\": "tests/"
+            "SachinKumar\\LaravelPackageStructure\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -47,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "TheTestCoder\\LaravelPackageStructure\\LaravelPackageStructureServiceProvider"
+                "SachinKUmar\\LaravelPackageStructure\\LaravelPackageStructureServiceProvider"
             ],
             "aliases": {
-                "LaravelPackageStructure": "TheTestCoder\\LaravelPackageStructure\\LaravelPackageStructureFacade"
+                "LaravelPackageStructure": "SachinKUmar\\LaravelPackageStructure\\LaravelPackageStructureFacade"
             }
         }
     }
