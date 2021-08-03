@@ -47,7 +47,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SachinKUmar\\LaravelPackageStructure\\LaravelPackageStructureServiceProvider"
+                "SachinKumar\\LaravelPackageStructure\\LaravelPackageStructureServiceProvider"
             ],
             "aliases": {
                 "LaravelPackageStructure": "SachinKUmar\\LaravelPackageStructure\\LaravelPackageStructureFacade"
