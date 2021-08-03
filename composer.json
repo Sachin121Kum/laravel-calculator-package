@@ -2,10 +2,10 @@
     "name": "sachinkumar/starter=package",
     "description": "This is simple laravel package structure",
     "keywords": [
-        "thetestcoder",
-        "laravel-package-structure"
+        "sachin121kum",
+        "laravel-calculator-package"
     ],
-    "homepage": "https://github.com/thetestcoder/laravel-package-structure",
+    "homepage": "https://github.com/Sachin121Kum/laravel-calculator-package",
     "license": "MIT",
     "type": "library",
     "authors": [
